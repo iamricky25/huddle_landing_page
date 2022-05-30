@@ -5,9 +5,15 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.wrapper {
+    width: 90%;
+    height: 720px;
+    margin: 50px auto 0px auto;
+}
+
 h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #logo {
@@ -15,18 +21,15 @@ h1 {
 }
 
 .column1 {
-    width: 50%;
+    width: 55%;
     float: left;
-    margin: 40px 10px 50px 50px;
-    border: solid;
 }
 
 .column2 {
-    width: 35%;
+    width: 34%;
     float: right;
-    margin: 220px 80px 50px 10px;
+    margin: 170px 50px 0px 0px;
     color: white;
-    border: solid;
 }
 
 .column2 p {
@@ -35,16 +38,19 @@ h1 {
 }
 
 #register {
-    width: 150px;
+    width: 170px;
     height: 50px;
     border-radius: 30px 30px 30px 30px;
-    /* border: solid; */
-    color: hsl(257, 40%, 49%);
-    box-shadow: 0 0 10px #777777;
+    color: hsl(257, 32%, 53%);
+    border: none;
+    box-shadow: 5px 5px 10px hsl(257, 41%, 28%);
+    font-size: 95%;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0px 0px 0px;
 }
 
 #register:active {
-    background-color: hsl(300, 69%, 71%);
+    background-color: hsl(300, 77%, 68%);
     color: rgb(211, 198, 211);
 }
 
@@ -54,7 +60,7 @@ h1 {
 
 .icons {
     float: right;
-    margin-top: 280px;
+    margin: 220px 30px 0px 0;
 }
 
 .buttons {
@@ -74,12 +80,8 @@ h1 {
 }
 
 .buttons:active, .buttons:active a {
-    border-color: hsl(300, 69%, 71%);
-    color: hsl(300, 69%, 71%);;
-}
-
-footer {
-    border: solid;
+    border-color: hsl(300, 77%, 55%);
+    color: hsl(300, 77%, 55%);
 }
 
 .attribution {
